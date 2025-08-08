@@ -1,8 +1,10 @@
-function Frase() {
+import styles from './Frase.module.css'
+function Frase(){
     return(
         <div>
-            <p>Este é um componente de Frase</p>
+            <p className= {styles.paragrafo}>Componente de frase...</p>
         </div>
     )
 }
-export default Frase;
+
+export default Frase
